@@ -81,7 +81,7 @@ function generar_número_secreto() {
 
 function Comdiciones_iniciales() {
     Asignar_texto('h1', `Adivina el número(${mostrarX})`);
-    Asignar_texto('p', `Inserte un número entre 1 al ${número_máximo}`);
+    Asignar_texto('p', `Inserte un número entre 1 al ${número_máximo}.`);
     número_secreto = generar_número_secreto();
     límite_de_intentos = Math.floor(número_máximo/3)
     console.log(límite_de_intentos);
